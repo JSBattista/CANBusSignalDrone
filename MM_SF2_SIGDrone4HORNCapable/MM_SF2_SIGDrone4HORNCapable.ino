@@ -11,7 +11,8 @@
 
   Notes: Signal Drones should be powered by 12VDC supplies capable of delivering enough amperage so as not to "fall flat" during the HORN test. 
          Weaker units can drop to less than 12VDC during this test and give a false failure during the ON state test. 2A should be the minimum
-         but even with that capability it might still fall flat. Power supplies should be tested individually.
+         but even with that capability it might still fall flat. Subsystem TVS components will compensate by trying to make more current flow.
+         Power supplies should be tested individually.
          A power supply can droop to around 11.8 volts and the drone and console - even a premier - may still function. Drones might vary.
 
         A premier model during horn test can draw up to 1A load. 
