@@ -1,4 +1,4 @@
-# CANBusSignalDrone
+# CAN Bus Signal Drone
 Signal Drones for pumping query and response data to throttle control systems for testing during the assembly process.
 One of the problems with Electronic (CAN bus) remote control systems is that they are comprised of numerous sub-assemblies that have to be connected to each other during assembly into the whole or greater assembly. 
 In that process, there is a lot of room for error. Error that would not be discovered until later. And then, at that point, you have an entire assembly that cannot pass the final tests and it has to be diagnosed, and then entirely taken apart to replace the defective sub-assembly. More often than that, it's usually a loose connector, bent or retracted pin, or something like that. So for one loose connector, not only is the assembly not able to pass the final thorough testing, and hence not shipped, but somebody who would otherwise be building a new assembly is instead having to dismantle one that was already built. 
