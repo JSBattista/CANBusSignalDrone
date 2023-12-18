@@ -10,4 +10,6 @@ These Signal Drones, or sigdrones, save a lot of time by catching issues before 
 
 It should be noted that the sigdrones only speak to the test programs running in the console assemblies. On what we call the EOL station, the assemblies get their final program after a thorough testing phase, that will be used out in the field and communicates with the other marine systems they will be connected to. So there are no CAN signals in the sigdrone code that are pertinent to actual boats that these consoles are installed into.
 
-The entire thing is run by an Arduino Nano. The two images show the evolution of the design (likely to come around when you keep making them) from first to last, both still in service. 
+The entire thing is run by an Arduino Nano. It also uses a 2 channel CAN adaptor originally intended for use with Raspberry Pi but it can be used with any MC having SPI connections. It can be found on Amazon for around $27.
+
+The two posted images show the evolution of the design (likely to come about when you keep making them) from first to last, both still in service. 
